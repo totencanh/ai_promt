@@ -1,75 +1,62 @@
 {
-  "schema_version": 1,
-  "project_id": "PROJECT-01",
+  "schema_version": 2,
+  "project_id": "PRJ-example",
   "title": "Original animation project",
+  "status": "planned",
   "workspace_root": "../..",
-  "format": {
+  "target": {
+    "aspect_ratio": "9:16",
     "width": 1080,
     "height": 1920,
-    "fps": 30,
-    "aspect_ratio": "9:16"
+    "fps": 30
   },
-  "voice_reference": {
-    "canonical_path": "/analysis/audio.wav",
-    "workspace_relative_path": "analysis/audio.wav"
-  },
+  "characters": [],
+  "environments": [],
   "artifacts": {
-    "story": {
-      "path": "planning/story.md",
-      "status": "planned"
-    },
-    "script": {
-      "path": "planning/script.md",
-      "status": "planned"
-    },
-    "scene_plan": {
-      "path": "planning/scene-plan.md",
-      "status": "planned"
-    },
-    "storyboard": {
-      "path": "planning/storyboard.md",
-      "status": "planned"
-    },
-    "visual_bible": {
-      "path": "planning/visual-bible.md",
-      "status": "planned"
-    },
-    "audio_plan": {
-      "path": "planning/audio-plan.md",
-      "status": "planned"
-    },
-    "edit_plan": {
-      "path": "planning/edit-plan.md",
-      "status": "planned"
-    }
+    "story": { "path": "planning/story.md", "status": "planned" },
+    "script": { "path": "planning/script.md", "status": "planned" },
+    "scene_plan": { "path": "planning/scene-plan.md", "status": "planned" },
+    "storyboard": { "path": "planning/storyboard.md", "status": "planned" },
+    "visual_bible": { "path": "planning/visual-bible.md", "status": "planned" },
+    "character_bible": { "path": "planning/character-bible.md", "status": "planned" },
+    "environment_bible": { "path": "planning/environment-bible.md", "status": "planned" },
+    "audio_plan": { "path": "planning/audio-plan.md", "status": "planned" },
+    "edit_plan": { "path": "planning/edit-plan.md", "status": "planned" },
+    "qc_report": { "path": "planning/qc-report.md", "status": "planned" }
+  },
+  "voice": {
+    "method": "undecided",
+    "reference_audio_path": null,
+    "rights_confirmed": false,
+    "engine_version": null,
+    "backend_model": null
   },
   "scenes": [
     {
       "id": "SC-01",
-      "duration_s": 6.0,
+      "duration_s": null,
       "status": "planned",
-      "script_line_ids": [
-        "LN-01"
-      ],
-      "storyboard_panel_ids": [
-        "P-01"
-      ],
-      "character_ids": [
-        "CHAR-01"
-      ],
+      "script_line_ids": ["LN-001"],
+      "storyboard_panel_ids": ["P-01"],
+      "character_ids": ["CHAR-01"],
       "environment_id": "ENV-01",
       "assets": [],
       "voice_segments": [
         {
           "id": "VO-01",
-          "script_line_ids": [
-            "LN-01"
-          ],
+          "script_line_ids": ["LN-001"],
           "path": "audio/voice/SC-01_VO-01.wav",
           "status": "planned"
         }
       ],
       "render_path": "scenes/SC-01.mp4"
     }
-  ]
+  ],
+  "review": {
+    "visual_approved": false,
+    "audio_approved": false,
+    "full_playback_reviewed": false,
+    "approver": null,
+    "decision": "pending"
+  }
 }

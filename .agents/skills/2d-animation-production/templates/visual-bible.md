@@ -1,21 +1,27 @@
-# Visual bible
+# Style Bible — project visual source of truth
 
-## Project-wide rules
-- Target frame size / aspect ratio / frame rate:
-- Original visual premise and shape language:
-- Palette (base / night / day / accents):
-- Line weight, fill, texture, shadow:
+- Project ID / version:
+- Target format (ratio, width × height, fps):
+- Original style premise: 2D Vietnamese folk-horror illustration, flat readable shapes, restrained hand-drawn character, simple mobile-readable staging.
+- Palette: base / night / day / accent colors (include values or references when useful):
+- Linework, fill, texture, shadow treatment:
 - Lighting and contrast:
-- Caption-safe region and phone-size text:
-- Camera framing and motion:
+- Background-detail level and historical/context accuracy rules:
+- Caption-safe region; title/credit treatment:
 - Reusable motifs original to this project:
+- Explicit exclusions (unwanted style, objects, effects):
 
-## Character registry
-| Character ID | Role | Silhouette / proportions | Face / expressions | Costume / color | Scale | Continuity notes | Sheet/asset paths |
-|---|---|---|---|---|---|---|---|
+## Style lock and proof
 
-## Environment registry
-| Environment ID | Scene IDs | Layout / depth layers | Palette / lighting | Props | Background asset path | Continuity notes |
-|---|---|---|---|---|---|---|
+1. Produce one character sheet, one environment keyframe, and one frame at the target aspect ratio.
+2. Inspect at full output size and phone-preview size; record issues and changes.
+3. Record the actual review decision and reviewer. Do not infer approval from file creation.
+4. Reuse the accepted references for scene assets; avoid independent redesign on each shot.
 
-Record generator/editor, prompt/version/seed when available, source/license, approval, and status for each production asset.
+## Linked design bibles
+
+- Character rules: `character-bible.md`
+- Environment rules: `environment-bible.md`
+- Storyboard and shot execution: `storyboard.md`
+
+Keep captions, titles, and credits in editable overlay layers. Do not bake text into artwork unless requested and technically necessary.
