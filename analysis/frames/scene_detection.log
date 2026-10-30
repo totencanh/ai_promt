@@ -1,0 +1,52 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '.\references\competitor_sample.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    aigc_info       : {"aigc_label_type":0}
+    comment         : vid:v10044g50000db4fn27og65ge5ah26og
+    vid_md5         : 5666eb68305034db098f8e0a3812087e
+    encoder         : Lavf58.76.100
+  Duration: 00:02:15.98, start: 0.000000, bitrate: 125 kb/s
+  Stream #0:0[0x1](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 32 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+  Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 576x1024 [SAR 1:1 DAR 9:16], 86 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> mjpeg (native))
+Press [q] to stop, [?] for help
+[Parsed_showinfo_1 @ 0000016a14d4d080] config in time_base: 1/15360, frame_rate: 30/1
+[Parsed_showinfo_1 @ 0000016a14d4d080] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   0 pts:  80384 pts_time:5.233333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:BB91E3E7 plane_checksum:[260AE85B E357320E D0CEC96F] mean:[34 129 127] stdev:[15.8 4.5 3.4]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+Output #0, image2, to '.\analysis\frames\scene_%04d.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    aigc_info       : {"aigc_label_type":0}
+    comment         : vid:v10044g50000db4fn27og65ge5ah26og
+    vid_md5         : 5666eb68305034db098f8e0a3812087e
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt470bg/unknown/unknown, progressive), 576x1024 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   1 pts: 235520 pts_time:15.333333 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:0F5D8294 plane_checksum:[44FCD961 1F03BE80 B806EA95] mean:[116 130 120] stdev:[32.6 7.7 7.9]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   2 pts: 358912 pts_time:23.366667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:6DC28694 plane_checksum:[F6800A50 A90E9097 44D7EB9E] mean:[45 124 138] stdev:[15.5 3.8 11.0]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   3 pts: 486400 pts_time:31.666667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:1769963C plane_checksum:[08883C2A D277CF66 85098A9D] mean:[70 132 122] stdev:[21.3 5.3 4.2]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   4 pts: 548352 pts_time:35.7    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:0 type:P checksum:66E46D3C plane_checksum:[15150B9A 1CE890E0 0AFAD0B3] mean:[22 130 127] stdev:[0.0 0.0 0.0]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   5 pts:1420288 pts_time:92.466667 duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:79751A61 plane_checksum:[20D637A0 45511183 5896D12F] mean:[120 127 125] stdev:[36.2 4.8 9.3]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[Parsed_showinfo_1 @ 0000016a14d4d080] n:   6 pts:1525248 pts_time:99.3    duration:    512 duration_time:0.0333333 fmt:yuv420p cl:left sar:1/1 s:576x1024 i:P iskey:1 type:I checksum:B425DAFE plane_checksum:[23392E3B 49D41B37 3F1D918C] mean:[38 128 129] stdev:[27.3 7.1 4.3]
+[Parsed_showinfo_1 @ 0000016a14d4d080] color_range:tv color_space:bt470bg color_primaries:unknown color_trc:unknown
+[out#0/image2 @ 0000016a16dc3600] video:118KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    7 fps=0.0 q=2.4 Lsize=N/A time=00:01:39.33 bitrate=N/A speed= 207x elapsed=0:00:00.47    

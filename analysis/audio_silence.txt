@@ -1,0 +1,43 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '.\references\competitor_sample.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    aigc_info       : {"aigc_label_type":0}
+    comment         : vid:v10044g50000db4fn27og65ge5ah26og
+    vid_md5         : 5666eb68305034db098f8e0a3812087e
+    encoder         : Lavf58.76.100
+  Duration: 00:02:15.98, start: 0.000000, bitrate: 125 kb/s
+  Stream #0:0[0x1](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 32 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+  Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 576x1024 [SAR 1:1 DAR 9:16], 86 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:1 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:0 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    aigc_info       : {"aigc_label_type":0}
+    comment         : vid:v10044g50000db4fn27og65ge5ah26og
+    vid_md5         : 5666eb68305034db098f8e0a3812087e
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt470bg/unknown/unknown, progressive), 576x1024 [SAR 1:1 DAR 9:16], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 wrapped_avframe
+      handler_name    : VideoHandler
+  Stream #0:1(und): Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_silencedetect_0 @ 000001d57ab5c000] silence_start: 62.061066
+[Parsed_silencedetect_0 @ 000001d57ab5c000] silence_end: 62.490952 | silence_duration: 0.429887
+[Parsed_silencedetect_0 @ 000001d57ab5c000] silence_start: 92.061088
+[Parsed_silencedetect_0 @ 000001d57ab5c000] silence_end: 92.490952 | silence_duration: 0.429864
+[out#0/null @ 000001d57c9309c0] video:1689KiB audio:23424KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame= 4078 fps=0.0 q=-0.0 Lsize=N/A time=00:02:15.97 bitrate=N/A speed= 378x elapsed=0:00:00.35    

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "project_id": "PROJECT-01",
+  "title": "Original animation project",
+  "workspace_root": "../..",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "aspect_ratio": "9:16"
+  },
+  "voice_reference": {
+    "canonical_path": "/analysis/audio.wav",
+    "workspace_relative_path": "analysis/audio.wav"
+  },
+  "artifacts": {
+    "story": {
+      "path": "planning/story.md",
+      "status": "planned"
+    },
+    "script": {
+      "path": "planning/script.md",
+      "status": "planned"
+    },
+    "scene_plan": {
+      "path": "planning/scene-plan.md",
+      "status": "planned"
+    },
+    "storyboard": {
+      "path": "planning/storyboard.md",
+      "status": "planned"
+    },
+    "visual_bible": {
+      "path": "planning/visual-bible.md",
+      "status": "planned"
+    },
+    "audio_plan": {
+      "path": "planning/audio-plan.md",
+      "status": "planned"
+    },
+    "edit_plan": {
+      "path": "planning/edit-plan.md",
+      "status": "planned"
+    }
+  },
+  "scenes": [
+    {
+      "id": "SC-01",
+      "duration_s": 6.0,
+      "status": "planned",
+      "script_line_ids": [
+        "LN-01"
+      ],
+      "storyboard_panel_ids": [
+        "P-01"
+      ],
+      "character_ids": [
+        "CHAR-01"
+      ],
+      "environment_id": "ENV-01",
+      "assets": [],
+      "voice_segments": [
+        {
+          "id": "VO-01",
+          "script_line_ids": [
+            "LN-01"
+          ],
+          "path": "audio/voice/SC-01_VO-01.wav",
+          "status": "planned"
+        }
+      ],
+      "render_path": "scenes/SC-01.mp4"
+    }
+  ]
+}

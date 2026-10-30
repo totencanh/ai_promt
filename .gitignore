@@ -1,0 +1,7 @@
+# Generated local environments and model caches
+.cache-vieneu/
+.venv-vieneu/
+.vieneu-test-env/
+
+# Production deliverables explicitly excluded from this repository
+production/
